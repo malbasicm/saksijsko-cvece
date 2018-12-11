@@ -1,0 +1,36 @@
+.shop-article
+{
+    width: 300px;
+    border: 1px solid black;
+    margin-bottom: 10px;
+}
+
+.shop-article h3
+{
+    margin: 0;
+}
+
+.shop-article h4, .shop-article p
+{
+    padding-left: 5px;
+}
+
+.shop-article button
+{
+    display: block;
+    margin: 5px auto;
+}
+
+.shop-article p
+{
+   white-space: pre-wrap;      /* CSS3 */   
+   white-space: -moz-pre-wrap; /* Firefox */    
+   white-space: -pre-wrap;     /* Opera <7 */   
+   white-space: -o-pre-wrap;   /* Opera 7 */    
+   word-wrap: break-word;      /* IE */
+}
+
+.shop-article img
+{
+    width: 300px;
+}
